@@ -6,59 +6,26 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
-    id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
+    "id": 1,
+    "title": "RSCAN Web app | 2023-2024",
+    "description": "Developed during an internship as a Full Stack Developer, this web app use React/Next.js(Page Router) and TypeScript and Material UI. Redux Toolkit serves as the single source of truth for state management. The project includes both frontend and backend development: Next.js is used for API Routes, which connect to a MySQL Workbench database, and Express.js is to create a server for storing company image data.",
+    "image": "/images/projects/RightScan.jpg",
+    "tag": ["All", "Web"],
+    "gitUrl": "/",
+    "previewUrl": "/"
+},
+{
+  "id": 2,
+  "title": "Flappy Clown | 2023-2024",
+  "description": "Project of a university course on Mobile Application Development, this mobile game was created using Java and Android Studio. The game is a clone of Flappy Bird, showcasing object-oriented programming principles.",
+  "image": "/images/projects/flappyClown.png",
+  "tag": ["All", "Mobile"],
+  "gitUrl": "/",
+  "previewUrl": "/"
+}
+
+
+
 ];
 
 const ProjectsSection = () => {
@@ -82,7 +49,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+        My experience project
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
