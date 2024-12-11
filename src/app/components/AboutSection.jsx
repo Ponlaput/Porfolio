@@ -10,12 +10,11 @@ const TAB_DATA = [
     content: (
       <div className='flex gap-10'>
       <ul className="list-disc pl-2">
-        <li>Node.js/Express</li>
-        <li>HTML/CSS</li>
+        <li>Node.js</li>
         <li>MySQL</li>
-        <li>JavaScript</li>
         <li>TypeScript</li>
         <li>MongoDB</li>
+        <li>Python</li>
       </ul>
       <ul className="list-disc pl-2">
         <li>React</li>
@@ -34,6 +33,8 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Git hub</li>
         <li>Figma</li>
+        <li>Jira</li>
+        <li>Postman</li>
         <li>Trello</li>
       </ul>
     ),
@@ -44,7 +45,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         
-        <li> Thammasat University</li>
+        <li> {`Thammasat University (Bachelor's degree)`}</li>
       </ul>
     ),
   },
