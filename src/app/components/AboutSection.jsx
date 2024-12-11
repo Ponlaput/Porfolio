@@ -36,6 +36,7 @@ const TAB_DATA = [
         <li>Jira</li>
         <li>Postman</li>
         <li>Trello</li>
+        <li>Jmeter</li>
       </ul>
     ),
   },
